@@ -107,6 +107,7 @@ ROOT_URLCONF = 'mysite.urls'
 # Python dotted path to the WSGI application used by Django's runserver.
 WSGI_APPLICATION = 'mysite.wsgi.application'
 
+#path to the custom template
 import os
 cur_path = os.path.dirname(__file__)
 template_path = cur_path + '/../template/'
